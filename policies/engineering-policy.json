@@ -1,0 +1,33 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "EC2ReadOnly",
+      "Effect": "Allow",
+      "Action": [
+        "ec2:Describe*"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Sid": "CloudWatchReadOnly",
+      "Effect": "Allow",
+      "Action": [
+        "cloudwatch:Describe*",
+        "cloudwatch:Get*",
+        "cloudwatch:List*"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Sid": "CloudWatchLogsReadOnly",
+      "Effect": "Allow",
+      "Action": [
+        "logs:Describe*",
+        "logs:Get*",
+        "logs:List*"
+      ],
+      "Resource": "*"
+    }
+  ]
+}

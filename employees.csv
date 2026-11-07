@@ -1,0 +1,9 @@
+employee_id,first_name,last_name,email,department,role,employment_status
+EMP001,Michael,Scott,michael@company.com,Education,MANAGER,ACTIVE
+EMP002,Dwight,Schrute,dwight@company.com,Sales,ANALYST,ACTIVE
+EMP003,Jim,Halpert,jim@company.com,Sales,ANALYST,ACTIVE
+EMP004,Pam,Beesly,pam@company.com,HR,HR_SPECIALIST,ACTIVE
+EMP005,Stanley,Hudson,stanley@company.com,Finance,ANALYST,ACTIVE
+EMP006,David,Wallace,david@company.com,Finance,FINANCE_MANAGER,ACTIVE
+EMP007,Ryan,Howard,ryan@company.com,Engineering,DEVELOPER,ACTIVE
+EMP008,Kelly,Kapoor,kelly@company.com,Sales,ANALYST,INACTIVE
